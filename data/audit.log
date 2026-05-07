@@ -1,0 +1,63 @@
+2026-04-28T17:28:51 | uid=1000 | user=admin | FAILED_LOGIN: Bad password
+2026-04-28T17:29:25 | uid=1000 | user=admin | LOGIN_SUCCESS: Logged in as Administrator
+2026-04-28T17:38:22 | uid=1000 | user=admin | LOGOUT: User exited SSO
+2026-04-28T17:38:39 | uid=1000 | user=admin | FAILED_LOGIN: Bad password
+2026-04-28T17:39:02 | uid=1000 | user=admin | LOGIN_SUCCESS: Logged in as Administrator
+2026-04-28T17:39:16 | uid=1000 | user=admin | LOGOUT: User exited SSO
+2026-04-28T17:39:32 | uid=1000 | user=auditor | FAILED_LOGIN: Bad password
+2026-04-28T17:39:55 | uid=1000 | user=auditor | LOGIN_SUCCESS: Logged in as Auditor
+2026-04-28T17:40:02 | uid=1000 | user=auditor | SECURITY_ALERT: Access denied for action 'open restricted live dashboard'. Required=['Administrator'], actual=Auditor
+2026-04-28T17:40:13 | uid=1000 | user=auditor | SECURITY_ALERT: Access denied for action 'view restricted process details'. Required=['Administrator'], actual=Auditor
+2026-04-28T17:40:21 | uid=1000 | user=auditor | SECURITY_ALERT: Access denied for action 'delete log files'. Required=['Administrator'], actual=Auditor
+2026-04-28T17:40:43 | uid=1000 | user=auditor | SECURITY_ALERT: Access denied for action 'open restricted live dashboard'. Required=['Administrator'], actual=Auditor
+2026-04-28T17:40:55 | uid=1000 | user=auditor | SECURITY_ALERT: Access denied for action 'view restricted process details'. Required=['Administrator'], actual=Auditor
+2026-04-28T17:41:11 | uid=1000 | user=auditor | SECURITY_ALERT: Access denied for action 'delete log files'. Required=['Administrator'], actual=Auditor
+2026-04-28T17:43:21 | uid=1000 | user=auditor | LOGOUT: User exited SSO
+2026-04-28T17:43:31 | uid=1000 | user=admin | FAILED_LOGIN: Bad password
+2026-04-28T17:43:44 | uid=1000 | user=admin | LOGIN_SUCCESS: Logged in as Administrator
+2026-04-28T17:45:44 | uid=1000 | user=admin | SNAPSHOT_CREATED: Created snapshot_20260428_174544_admin.log with hash snapshot_20260428_174544_admin.log.sha256
+2026-04-28T17:51:28 | uid=1000 | user=admin | LOGOUT: User exited SSO
+2026-04-28T17:54:40 | uid=1000 | user=admin | LOGIN_SUCCESS: Logged in as Administrator
+2026-04-28T17:54:43 | uid=1000 | user=admin | SNAPSHOT_CREATED: Created snapshot_20260428_175443_admin.log with hash snapshot_20260428_175443_admin.log.sha256
+2026-04-28T17:54:51 | uid=1000 | user=admin | LOGOUT: User exited SSO
+2026-04-28T17:59:47 | uid=1000 | user=admin | LOGIN_SUCCESS: Logged in as Administrator
+2026-04-28T18:00:12 | uid=1000 | user=admin | SECURITY_ALERT: Integrity check failed for snapshot_20260428_174544_admin.log
+2026-04-28T18:00:25 | uid=1000 | user=admin | SECURITY_ALERT: Integrity check failed for snapshot_20260428_174544_admin.log
+2026-04-28T18:01:59 | uid=1000 | user=admin | LOG_DELETED: Deleted snapshot_20260428_174544_admin.log and matching hash file
+2026-04-28T18:03:15 | uid=1000 | user=admin | LOG_DELETED: Deleted snapshot_20260428_175443_admin.log and matching hash file
+2026-05-04T18:45:34 | uid=1000 | user=admin | LOGIN_SUCCESS: Logged in as Administrator
+2026-05-04T18:45:59 | uid=1000 | user=admin | SNAPSHOT_CREATED: Created snapshot_20260504_184559_admin.log with hash snapshot_20260504_184559_admin.log.sha256
+2026-05-04T22:15:26 | uid=1000 | user=admin | FAILED_LOGIN: Bad password
+2026-05-04T22:15:37 | uid=1000 | user=admin | FAILED_LOGIN: Bad password
+2026-05-04T22:15:48 | uid=1000 | user=admin | FAILED_LOGIN: Bad password
+2026-05-04T22:16:01 | uid=1000 | user=Admin | FAILED_LOGIN: Unknown username
+2026-05-04T22:16:13 | uid=1000 | user=Admin | FAILED_LOGIN: Unknown username
+2026-05-04T22:16:21 | uid=1000 | user=Auditor | FAILED_LOGIN: Unknown username
+2026-05-04T22:16:54 | uid=1000 | user=auditor | LOGIN_SUCCESS: Logged in as Auditor
+2026-05-04T22:17:54 | uid=1000 | user=auditor | FAILED_LOGIN: Bad password
+2026-05-04T22:18:05 | uid=1000 | user=auditor | LOGIN_SUCCESS: Logged in as Auditor
+2026-05-04T22:18:08 | uid=1000 | user=auditor | SECURITY_ALERT: Access denied for action 'open restricted live dashboard'. Required=['Administrator'], actual=Auditor
+2026-05-04T22:18:13 | uid=1000 | user=auditor | SECURITY_ALERT: Access denied for action 'view restricted process details'. Required=['Administrator'], actual=Auditor
+2026-05-04T22:18:15 | uid=1000 | user=auditor | SECURITY_ALERT: Access denied for action 'delete log files'. Required=['Administrator'], actual=Auditor
+2026-05-04T22:18:55 | uid=1000 | user=admin | FAILED_LOGIN: Bad password
+2026-05-04T22:19:03 | uid=1000 | user=admin | LOGIN_SUCCESS: Logged in as Administrator
+2026-05-04T22:19:26 | uid=1000 | user=admin | LOG_DELETED: Deleted snapshot_20260504_184559_admin.log and matching hash file
+2026-05-04T22:20:58 | uid=1000 | user=admin | SNAPSHOT_CREATED: Created snapshot_20260504_222058_admin.log with hash snapshot_20260504_222058_admin.log.sha256
+2026-05-04T22:22:11 | uid=1000 | user=admin | LOGOUT: User exited SSO
+2026-05-04T22:22:17 | uid=1000 | user=Admin | FAILED_LOGIN: Unknown username
+2026-05-04T22:22:24 | uid=1000 | user=admin | LOGIN_SUCCESS: Logged in as Administrator
+2026-05-04T22:23:06 | uid=1000 | user=admin | SECURITY_ALERT: Integrity check failed for snapshot_20260504_222058_admin.log
+2026-05-04T22:44:37 | uid=1000 | user=auditor | FAILED_LOGIN: Bad password
+2026-05-04T22:44:49 | uid=1000 | user=auditor | LOGIN_SUCCESS: Logged in as Auditor
+2026-05-04T22:44:54 | uid=1000 | user=auditor | SECURITY_ALERT: Access denied for action 'open restricted live dashboard'. Required=['Administrator'], actual=Auditor
+2026-05-04T22:44:59 | uid=1000 | user=auditor | SECURITY_ALERT: Access denied for action 'view restricted process details'. Required=['Administrator'], actual=Auditor
+2026-05-04T22:45:04 | uid=1000 | user=auditor | SECURITY_ALERT: Access denied for action 'delete log files'. Required=['Administrator'], actual=Auditor
+2026-05-04T22:45:43 | uid=1000 | user=auditor | LOGOUT: User exited SSO
+2026-05-04T22:45:58 | uid=1000 | user=admin | LOGIN_SUCCESS: Logged in as Administrator
+2026-05-04T22:46:36 | uid=1000 | user=admin | SNAPSHOT_CREATED: Created snapshot_20260504_224636_admin.log with hash snapshot_20260504_224636_admin.log.sha256
+2026-05-04T22:46:49 | uid=1000 | user=admin | LOG_DELETED: Deleted snapshot_20260504_222058_admin.log and matching hash file
+2026-05-04T22:46:55 | uid=1000 | user=admin | LOG_DELETED: Deleted snapshot_20260504_224636_admin.log and matching hash file
+2026-05-04T22:47:03 | uid=1000 | user=admin | SNAPSHOT_CREATED: Created snapshot_20260504_224703_admin.log with hash snapshot_20260504_224703_admin.log.sha256
+2026-05-04T22:47:24 | uid=1000 | user=admin | SECURITY_ALERT: Integrity check failed for snapshot_20260504_224703_admin.log
+2026-05-04T22:47:29 | uid=1000 | user=admin | SNAPSHOT_CREATED: Created snapshot_20260504_224729_admin.log with hash snapshot_20260504_224729_admin.log.sha256
+2026-05-04T22:47:36 | uid=1000 | user=admin | SECURITY_ALERT: Integrity check failed for snapshot_20260504_224703_admin.log

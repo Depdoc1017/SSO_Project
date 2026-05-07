@@ -1,0 +1,18 @@
+[
+  {
+    "username": "admin",
+    "role": "Administrator",
+    "salt": "a8a9f0cacf75b622eabf2275c78def3a",
+    "password_hash": "31a8be561176b9c10db4d123795839b6513adcf2eb30424c32a00fe223343cf0",
+    "iterations": 200000,
+    "hash_algorithm": "PBKDF2-HMAC-SHA256"
+  },
+  {
+    "username": "auditor",
+    "role": "Auditor",
+    "salt": "79cea69eac28ce9d94d36a1f24786191",
+    "password_hash": "7c9d50d110d5dba5b5bd4ff2a1fe120c8153482b611d416e16a561917d75b0a5",
+    "iterations": 200000,
+    "hash_algorithm": "PBKDF2-HMAC-SHA256"
+  }
+]
